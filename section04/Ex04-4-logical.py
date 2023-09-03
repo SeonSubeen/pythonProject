@@ -8,4 +8,13 @@
     or : 2개항 어느 한쪽이 True 이면 True
     not : 논리 값을 반전시킨다.
 '''
+a = 10
+b = 0
+print('{} > 0 and {} > 0 : {}'.format(a, b, a > 0 and b > 0))
+print('{} > 0 or {} > 0 : {}'.format(a, b, a > 0 or b > 0))
 
+print(True and True)
+print(True or False)
+
+print('not {} : {}'.format(a, not a))
+print('not {} : {}'.format(b, not b)) # 0 -> False 인식
