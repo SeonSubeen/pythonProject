@@ -33,6 +33,3 @@ json_string = json.dumps(dict_list)
 with open('dictList.json', 'w') as file:
     file.write(json_string)
 print('dictList.json 파일이 생성되었습니다.')
-
-
-
